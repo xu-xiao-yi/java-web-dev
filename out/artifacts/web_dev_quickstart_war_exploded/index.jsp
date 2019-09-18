@@ -11,9 +11,25 @@
     <title>首页</title>
 </head>
 <body>
-首页
-<%--<h3>欢迎你：${pageContext.request.getAttribute("username")}</h3>--%>
-<h3>这里是response跳转的用户名：<%=session.getAttribute("username")%>
-    <a href="login.html">点击返回登陆</a>
+<h2>首页</h2>
+<ul>
+<%--    <li>--%>
+<%--        服务器端跳转的用户名--%>
+<%--        <%=request.getAttribute("username")%>--%>
+<%--        服务器端跳转的密码--%>
+<%--        <%=request.getAttribute("password")%>--%>
+<%--    </li>--%>
+
+    <li>
+        <a href="person.jsp">个人中心</a>
+    </li>
+
+    <li>
+    客户端跳转的用户名：<%=session.getAttribute("username")%>
+    客户端跳转的密码：<%=session.getAttribute("password")%>
+</li>
+</ul>
+<br>
+<a href="login.html">点击返回登陆</a>
 </body>
 </html>

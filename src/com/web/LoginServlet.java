@@ -21,16 +21,20 @@ public class LoginServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         //通过req请求参数获取前台表单的用户名参数
         String username = req.getParameter("username");
-        //跳转之前把用户名存入req对象
+        //取得密码参数
+        String password = req.getParameter("password");
+        //跳转之前把用户名和密码存入req对象
 //        req.setAttribute("username", username);
-        //通过req跳转
+//        req.setAttribute("password", password);
+        //通过req跳转，服务器端跳转
 //        req.getRequestDispatcher("/index.jsp").forward(req, resp);
 
         //通过req请求对象获取session会话对象
         HttpSession session = req.getSession();
-        //把用户名存入session对象
-        session.setAttribute("username",username);
-        //通过resp跳转
+//        //把用户名存入session对象
+        session.setAttribute("username", username);
+        session.setAttribute("password",password);
+//        //通过resp跳转
         resp.sendRedirect("/index.jsp");
     }
 }
