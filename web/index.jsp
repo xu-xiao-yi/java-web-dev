@@ -9,27 +9,23 @@
 <html>
 <head>
     <title>首页</title>
+    <style type="text/css">
+        #top {
+            height: 50px;
+            background-color: rgb(38, 166, 154);
+            color: #FFF;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
-<h2>首页</h2>
-<ul>
-<%--    <li>--%>
-<%--        服务器端跳转的用户名--%>
-<%--        <%=request.getAttribute("username")%>--%>
-<%--        服务器端跳转的密码--%>
-<%--        <%=request.getAttribute("password")%>--%>
-<%--    </li>--%>
-
-    <li>
-        <a href="person.jsp">个人中心</a>
-    </li>
-
-    <li>
-    客户端跳转的用户名：<%=session.getAttribute("username")%>
-    客户端跳转的密码：<%=session.getAttribute("password")%>
-</li>
-</ul>
-<br>
-<a href="login.html">点击返回登陆</a>
+<div id="top">
+    <span class="logo">书屋</span>
+    <span class="logo"><%=session.getAttribute("username")%></span>
+</div>
+<div class="container"></div>
 </body>
 </html>
