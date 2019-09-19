@@ -44,8 +44,9 @@ public class MockHttp {
         BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
         String inputLine;
         StringBuilder result = new StringBuilder();
-        while ((inputLine = in.readLine()) != null)
+        while ((inputLine = in.readLine()) != null) {
             result.append("\n").append(inputLine);
+        }
         System.out.println("result===" + result);
     }
 }
