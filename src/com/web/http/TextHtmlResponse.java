@@ -1,4 +1,4 @@
-package com.http;
+package com.web.http;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

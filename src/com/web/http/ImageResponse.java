@@ -1,4 +1,4 @@
-package com.http;
+package com.web.http;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +12,7 @@ import java.io.*;
  * @date 2019/9/19
  * 返回图片类型的响应
  */
-@WebServlet(urlPatterns = "/image.do")
+@WebServlet(urlPatterns = "/getImage.do")
 public class ImageResponse extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,19 +22,14 @@ public class ImageResponse extends HttpServlet {
         //通过根路径下images的图片文件创建File对象
         File imgFile = new File(path + "images/me.jpg");
         //通过图片文件创建字节输入流
-        OutputStream outputStream = new FileOutputStream(imgFile);
-        //创建文件长度大小的字节数组
-        byte[] b = new byte[(int) imgFile.length()];
-        //将图片文件通过字节输出流写入字节数组
-        outputStream.write(b);
-
-        //第二步，将字节数组输出到客户端
+        InputStream is = new FileInputStream(imgFile);
+        //通过字节输入流构建缓冲输入字节流
+        BufferedInputStream bis = new BufferedInputStream(is);
+        //创建指定长度的缓冲区
+        byte[] buffer = new byte[1024];
+        //设置响应对象的内容类型
+        resp.setContentType("image/jpeg;UTF-8");
         //获取响应对象的输出流（字节流）
         OutputStream os = resp.getOutputStream();
-        //将字节数组通过响应对象的输出流输出
-        outputStream.write(b);
-        //关闭流
-        os.close();
-        outputStream.close();
     }
 }
