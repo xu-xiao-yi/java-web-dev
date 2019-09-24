@@ -30,6 +30,6 @@ public class ImageResponse extends HttpServlet {
         //设置响应对象的内容类型
         resp.setContentType("image/jpeg;UTF-8");
         //获取响应对象的输出流（字节流）
-        OutputStream os = resp.getOutputStream();
+        OutputStream outputStream = resp.getOutputStream();
     }
 }

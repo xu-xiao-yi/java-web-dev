@@ -10,68 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8e5a2f-8104-47f5-ade2-c02cd32ebdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_dev_quickstart_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/servlet/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/servlet/SignInServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/servlet/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/web/util/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-dev-quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/book9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/http/ImageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/http/ImageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/http/MockHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/http/MockHttp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/http/TextHtmlResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/http/TextHtmlResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myweb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/iconfont.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/web/http/ImageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/http/ImageResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/person.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/person.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/sign_in.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +30,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -118,15 +66,19 @@
     <property name="ToolWindowRestServices.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
+    <property name="last_opened_file_path" value="D:/Tomcat9/webapps" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.2408687" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\web-dev-quickstart\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\web-dev-quickstart\web\images" />
       <recent name="E:\JavaWeb\web-dev-quickstart\web\css" />
@@ -193,9 +145,10 @@
     </configuration>
     <configuration name="ECS on Alibaba Cloud" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
       <option name="address" />
+      <option name="afterCommand" />
       <option name="alreadyReset" value="true" />
       <option name="autoOpen" value="false" />
-      <option name="command" value="sh /usr/local/tomcat9/bin/restart-tomcat.sh" />
+      <option name="beforeCommand" />
       <option name="defaultTabIdx" value="0" />
       <option name="ecsInstance">
         <EcsInstance>
@@ -333,7 +286,13 @@
       <workItem from="1568940895333" duration="518000" />
       <workItem from="1568941446621" duration="18332000" />
       <workItem from="1568985064468" duration="15272000" />
-      <workItem from="1569025601360" duration="15320000" />
+      <workItem from="1569025601360" duration="16939000" />
+      <workItem from="1569060460121" duration="4649000" />
+      <workItem from="1569143294055" duration="767000" />
+      <workItem from="1569145784407" duration="903000" />
+      <workItem from="1569252384254" duration="3577000" />
+      <workItem from="1569292263145" duration="783000" />
+      <workItem from="1569298213749" duration="8280000" />
     </task>
     <task id="LOCAL-00001" summary="web起步项目的第一次提交，学习基础的请求和页面跳转">
       <created>1568710246873</created>
@@ -363,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568862000537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增服务器端学生数据转发至页面渲染、综合的登录、主页、个人中心的两个案例">
+      <created>1569052277523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569052277523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +352,7 @@
     <MESSAGE value="web起步项目的第一次提交，学习基础的请求和页面跳转" />
     <MESSAGE value="学习客户端跳转，使用session记录信息，注意和服务器端跳转的区别" />
     <MESSAGE value="增加Java模拟HTTP请求，请求本机返回text/html格式的数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Java模拟HTTP请求，请求本机返回text/html格式的数据" />
+    <MESSAGE value="新增服务器端学生数据转发至页面渲染、综合的登录、主页、个人中心的两个案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增服务器端学生数据转发至页面渲染、综合的登录、主页、个人中心的两个案例" />
   </component>
 </project>

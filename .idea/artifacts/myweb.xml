@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myweb">
+    <output-path>D:/Tomcat9/webapps</output-path>
+    <root id="archive" name="myweb.war">
+      <element id="artifact" artifact-name="web-dev-quickstart:war exploded" />
+    </root>
+  </artifact>
+</component>
