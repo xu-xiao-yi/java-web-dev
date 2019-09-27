@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8e5a2f-8104-47f5-ade2-c02cd32ebdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myweb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/iconfont.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/web/http/ImageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/web/http/ImageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/sign_in.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +59,19 @@
     <property name="ToolWindowRestServices.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Tomcat9/webapps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-dev-quickstart" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2408687" />
   </component>
   <component name="RecentsManager">
@@ -250,7 +249,6 @@
       <item itemvalue="Application.MockHttp" />
       <item itemvalue="Application.UserService" />
       <item itemvalue="Application.Md5Util" />
-      <item itemvalue="ECS on Alibaba Cloud.ECS on Alibaba Cloud" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
     </list>
     <recent_temporary>
@@ -293,6 +291,8 @@
       <workItem from="1569252384254" duration="3577000" />
       <workItem from="1569292263145" duration="783000" />
       <workItem from="1569298213749" duration="8280000" />
+      <workItem from="1569576880994" duration="93000" />
+      <workItem from="1569577038183" duration="3139000" />
     </task>
     <task id="LOCAL-00001" summary="web起步项目的第一次提交，学习基础的请求和页面跳转">
       <created>1568710246873</created>
